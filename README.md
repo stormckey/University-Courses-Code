@@ -1,10 +1,5 @@
- # Repository of course code I wrote during undergraduate
+# Repository of course code I wrote during undergraduate
 
-
-- CSAPP
-  - Which is Computer System : A Programmer's Perspective from CMU
-  - Many accessible sources in their [home page](http://csapp.cs.cmu.edu/),and PPT [here](http://www.cs.cmu.edu/afs/cs/academic/class/15213-f15/www/schedule.html)
-  - Inside the directory were writeups as guidance, an tar with all needed files in fresh and my work.(It's hard so that I cant handle them perfectly most of the time) 
 - ICS
   - Which is Introduction to Computer Systems by Yale Patt
   - Inside the directory were source code for Labs and Reports for them
