@@ -1,0 +1,31 @@
+;begin in x3000
+0011 0000 0000 0000
+
+;load the number in R0
+0010 000 011111111
+
+;shift R0 1 bit to the left and save it in R1
+0001 001 000 0 00 000
+
+;shift R0 2 bit to the left and save it in R2 ,by add R1 and R1 up
+0001 010 001 0 00 001
+
+;shift R0 3 bit to the left and save it in R3 ,by add R2 and R2 up
+0001 011 010 0 00 010
+
+;R0 and R1 and R2 and R3,save in R2 
+0101 010 000 0 00 010
+0101 010 001 0 00 010
+0101 010 011 0 00 010
+
+;if R2 is 0,then it's not F-word,if R2 is not 0, then it is,we need to set R2 to 1
+
+;if R2 is 0, jump to halt line
+0000 010 000000010
+
+;if R2 is not 0, set R2 to 1,by and R2,0 ,then add R2,1
+0101 010 010 1 00000
+0001 010 010 1 00001
+
+;trap x25
+1111 0000 0010 0101

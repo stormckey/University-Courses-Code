@@ -1,0 +1,20 @@
+*
+!*.fig
+!.gitignore
+!*.txt
+!*.mat
+!*.m
+!*.asm
+!*.c
+!*.sql
+!*.md
+!*.bin
+!*.py
+!*.pdf
+!CSAPP/
+!ICS/
+!Assembly/
+!Physics\ Experimental\ II/
+!Program\ Design\ and Algorithm/
+!dip/*/
+!dip/
